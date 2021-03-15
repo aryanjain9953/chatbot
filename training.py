@@ -3,13 +3,14 @@ import json
 import pickle
 from typing import Pattern
 import numpy as np
-from numpy.core.defchararray import mod
 import nltk
-from nltk.stem import WordNetLemmatizer
-import tensorflow 
+import tensorflow
+
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Activation, Dropout
 from tensorflow.keras.optimizers import SGD
+from numpy.core.defchararray import mod
+from nltk.stem import WordNetLemmatizer
 
 lemmatizer = WordNetLemmatizer()
 
